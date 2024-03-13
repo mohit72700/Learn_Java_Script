@@ -22,3 +22,14 @@ console.log(booleanIsLoggedIn)
  let stringNumber= String(someNumber)
  console.log(typeof stringNumber)
  console.log(stringNumber)
+
+ let str1= "Hello"
+ let str2= " Mohit"
+ let str3= str1+str2
+ console.log(str3)
+ console.log("1"+2)
+ console.log(1+"2")
+ console.log(1+2+"3")
+ console.log("1"+2+3)
+ let gamecounter= 100
+ console.log(++gamecounter)
