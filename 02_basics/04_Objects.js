@@ -56,6 +56,18 @@ console.log(Object.entries(instaUser))
 console.log(instaUser.hasOwnProperty('id'))
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Mohit"
+}
+
+// course.courseInstructor 
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
 
 
 
